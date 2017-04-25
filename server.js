@@ -22,6 +22,12 @@ if (isProd) {
         // src/index.template.html is processed by html-webpack-plugin to inject
         // build assets and output as dist/index.html.
     const template = fs.readFileSync(resolve('./dist/index.html'), 'utf-8')
+
+
+
+
+
+
     renderer = createRenderer(bundle, template)
 } else {
     // In development: setup the dev server with watch and hot-reload,
