@@ -1,0 +1,12 @@
+{
+  "name": "vue",
+  "version": "1.0.0",
+  "description": "HackerNews clone built with Vue 2.0 + vue-router + vuex, with server-side rendering.",
+  "main": "server.js",
+  "author": "MRM",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.15.2",
+    "path": "^0.12.7"
+  }
+}
