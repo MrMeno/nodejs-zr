@@ -24,10 +24,6 @@ if (isProd) {
     const template = fs.readFileSync(resolve('./dist/index.html'), 'utf-8')
 
 
-
-
-
-
     renderer = createRenderer(bundle, template)
 } else {
     // In development: setup the dev server with watch and hot-reload,
